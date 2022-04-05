@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Route handler
 app.use("/urls", urlsRouter);
-app.use("/uses", usesRouter);
+// app.use("/uses", usesRouter);
 
 // Not-found handler
 app.use((req, res, next) => {

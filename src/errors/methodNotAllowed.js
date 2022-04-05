@@ -5,4 +5,4 @@ const methodNotAllowed = (req, res, next) => {
   })
 }
 
-module.export = methodNotAllowed;
+module.exports = methodNotAllowed;
