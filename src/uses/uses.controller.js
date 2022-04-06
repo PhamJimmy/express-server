@@ -14,15 +14,6 @@ const useExists = (req, res, next) => {
   }
 }
 
-let maxUsesId = uses.reduce((currMaxId, use) => Math.max(currMaxId, use.id), 0)
-
-const create = (req, res) => {
-  const { data: { href, id } = {} } = req.body; 
-  const newUse = {
-
-  }
-}
-
 const read = (req, res) => {
   const use = res.locals.use;
   res.json({ data: use })
